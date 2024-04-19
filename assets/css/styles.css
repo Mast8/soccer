@@ -242,6 +242,9 @@ body.dark-theme {
   font-size: 1.25rem;
   cursor: pointer;
 }
+.nav__item:hover {
+  background-color: red;
+}
 
 @media screen and (max-width: 767px) {
   .nav__menu {
@@ -262,6 +265,8 @@ body.dark-theme {
   align-items: center;
   row-gap: 2rem;
 }
+
+
 
 .nav__link {
   color: var(--title-color);
@@ -772,6 +777,8 @@ body.dark-theme {
   row-gap: 2rem;
   border-bottom: 1px solid var(--border-color);
   padding-bottom: 3rem;
+  text-align: center;
+  font-weight: bold;
 }
 
 .footer__title {
