@@ -93,14 +93,15 @@ h1 {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 2.5rem;
   text-align: center;
-  
+  text-transform: uppercase;
 }
 
 h2 {
-  color: var(--green1);
+  
   font-family: 'Courier New', Courier, monospace;
-  font-weight: bold;
-  font-size: 1.5rem;
+  
+  font-size: 2rem;
+  text-align: center;
 }
 
 p {
@@ -503,7 +504,7 @@ body.dark-theme {
 }
 
 .featured__title {
-  text-transform: uppercase;
+  
   margin-bottom: var(--mb-0-75);
 }
 
@@ -521,7 +522,7 @@ body.dark-theme {
 
 .featured__card:hover {
   box-shadow: 0 12px 32px hsla(0, 0%, 20%, .1);
-  padding: 2rem 0 3rem 0;
+  /* padding: 2rem 0 3rem 0; */
 }
 
 .featured__card:hover .featured__button {
@@ -755,7 +756,7 @@ body.dark-theme {
 
 .new__title, 
 .new__price {
-  font-size: var(--h3-font-size);
+  font-size: var(--h2-font-size);
   font-weight: var(--font-bold);
 }
 
@@ -779,7 +780,6 @@ body.dark-theme {
 .new__card:hover {
   background-color: var(--first-color);
   box-shadow: 0 12px 32px hsla(0, 0%, 20%, .1);
-  padding: 2rem 0 3rem 0;
 }
 
 .new__card:hover .new__tag {
@@ -1116,7 +1116,7 @@ body.dark-theme {
   }
   .nav__link {
     text-transform: initial;
-    font-size: var(--normal-font-size);
+    font-size: var(--h2-font-size);
   }
   .nav__btns {
     margin-left: auto;
