@@ -1035,10 +1035,11 @@ body.dark-theme {
   font-weight: var(--font-medium);
 }
 
-/* Show cart */
-.show-cart {
-  right: 0;
+address {
+  padding-bottom: 8px;
 }
+
+
 
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
