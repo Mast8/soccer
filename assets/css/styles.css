@@ -1039,6 +1039,9 @@ address {
   padding-bottom: 8px;
 }
 
+iframe{
+  width: 80%;
+}
 
 
 /*=============== BREAKPOINTS ===============*/
