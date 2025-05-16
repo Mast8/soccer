@@ -68,7 +68,7 @@ let newSwiper = new Swiper(".new-swiper", {
 });
 
 /*=============== SCROLL SECTIONS ACTIVE LINK ===============*/
-const sections = document.querySelectorAll('section[id]')
+/* const sections = document.querySelectorAll('section[id]')
     
 const scrollActive = () =>{
   	const scrollY = window.pageYOffset
@@ -86,7 +86,7 @@ const scrollActive = () =>{
 		}                                                    
 	})
 }
-window.addEventListener('scroll', scrollActive)
+window.addEventListener('scroll', scrollActive) */
 
 /*=============== SHOW SCROLL UP ===============*/ 
 const scrollUp = () =>{
