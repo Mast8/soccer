@@ -170,8 +170,9 @@ body.dark-theme {
   box-shadow: 0 1px 4px hsla(0, 0%, 4%, .3);
 }
 
+
 .bx-sun::before{
-  
+  color: #FFF;
   size: 3rem;
 }
 
